@@ -1,0 +1,33 @@
+.wrapper{
+  min-height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &>button{
+    width: 10%;
+    border-radius: 2px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 1%;
+    cursor:pointer;
+    &:hover{
+      background-color: #454545;
+      transition: .2s all ease-out;
+    }
+    &:active{
+      background-color: #b0b0b0;
+      color:#222222;
+      transition: .1s all ease;
+
+    }
+  }
+}
